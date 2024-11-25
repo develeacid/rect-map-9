@@ -6,8 +6,10 @@
   @viteReactRefresh
   @vite('resources/js/app.jsx')
   @inertiaHead 
+  @livewireStyles 
 </head>
 <body>
   @inertia  
+  @livewireScripts 
 </body>
 </html>
