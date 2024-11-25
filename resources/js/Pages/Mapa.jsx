@@ -3,10 +3,10 @@ import { Head } from "@inertiajs/inertia-react";
 
 export default function Mapa(props) {
     return (
-        <div>
+        <div className="container">
             <Head title="Servicio de Mapas" />
-            <h1>Servicio de Mapas</h1>
-            {/* Aquí puedes usar Livewire y la librería de mapas */}
+            <h1 className="text-primary">Servicio de Mapas</h1>
+            <div className="row">{/* ... */}</div>
         </div>
     );
 }
